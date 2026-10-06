@@ -1,0 +1,314 @@
+@font-face {
+  font-family: honey;
+  src: url(https://cdn.glitch.global/ddb6006c-caa0-43e6-abef-065a026137f5/G2Erika-Regular.woff2.otf?v=1729028930195);
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:white;
+/*   border-left:2px solid black; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#d3d3d3;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+body {
+  font-family: honey;
+  background:#d3d3d3;
+   color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#darkmode{
+  margin-right:10px;
+  padding:0px 20px;
+  padding-bottom:3px;
+  border-radius:30px;
+}
+
+p {
+  width: 97%;
+  overflow-x: hidden;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+h1 {
+  left: 10px;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+#introText {
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.intro{
+     display:none;
+}
+
+.about{
+   display:block;
+}
+
+
+
+a {
+  text-decoration: none;
+/*   color: black; */
+  /* margin-left: 10px; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.className {
+  font-size: 2em;
+  text-transform: lowercase;
+  margin-bottom:20px;
+/*   background:#8600EC; */
+  border:2px solid black;
+  width:fit-content;
+  padding:4px;
+  padding-top:0px;
+  color:black;
+}
+
+.typefaceName {
+    font-size: 2em;
+  text-transform: lowercase;
+/*   background:white; */
+  padding:0px 10px;
+}
+
+.downloadbutton {
+  text-decoration: none;
+/*   color: black; */
+  font-size: 2em;
+  bottom: 25px;
+  left: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  max-width: 350px;
+  text-transform: lowercase;
+  margin-right: 10px;
+}
+
+.downloadbutton:hover {
+  /* background-color: #00A16C; */
+/*   color: black; */
+  /* border-color: #E9E9F2; */
+}
+
+.header {
+  position: fixed;
+}
+
+#block {
+  height: 50px;
+}
+
+.atag {
+  margin-top: 20px;
+  text-decoration: none;
+  color: inherit;
+  margin: auto;
+  display: block;
+}
+
+.atag:hover {
+  color: inherit;
+}
+
+/* NEW CSS */
+
+#info {
+  display: block;
+  width: 98vw;
+  min-width: 350px;
+  margin-bottom: 80px;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 2em;
+}
+
+.infoButtons {
+  margin-left: 0;
+  color:black;
+}
+
+.infoButtons:hover {
+  /* color: #00A16C; */
+}
+
+button {
+/*  background-color: #E9E9F2; */
+    font-family: honey;
+    font-size: 1em;
+    margin: auto;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+   border:2px solid black;
+    background:transparent;
+  
+  }
+
+button:hover {
+  background:black;
+  color: white;
+}
+
+  .titleButtons {
+    /* margin-right: 0px; */
+    /* margin-bottom: 20px; */
+    margin-top: 0px;
+    float: right;
+    color:black;
+    padding: 0px 10px;
+  }
+
+
+.sample {
+  display: block;
+  outline: none;
+  font-size: 14em;
+  overflow-wrap: break-word;
+  width: 90%;
+  line-height:.9;
+  min-width: 350px;
+  text-align: center;
+  color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin:0 auto;
+}
+
+
+/* .sample:hover {
+color: black;
+}
+ */
+#Icons{
+  font-size: 400px;
+  line-height:1
+}
+
+
+  .allTypeThings {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-bottom: 20px;
+        width: 100%;
+    margin: 0 auto;
+  }
+
+
+  .typefaceNameDIV {
+    padding-top: 10px;
+     min-width: 200px;
+  }
+
+  input {
+    appearance: inherit;
+    width: 17%;
+    background-color: #6e6e6e00;
+    /* outline: 2px solid; */
+    padding-top: 0px;
+    border-radius: 60px;
+    border:2px solid black;
+    background: transparent;
+    height: 25px;
+     margin-top: 18px;
+    padding-left: 3px;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
+    border:2px solid black;
+    border-radius: 50px;
+    cursor: pointer; /* Cursor on hover */
+
+  }
+
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: none; /* Green background */
+/*     border: solid; */
+    border-color: black;
+    border-radius: 50px;
+    cursor: pointer; /* Cursor on hover */
+
+  }
+
+  .typeInfo {
+    /* margin-right: 20px; */
+    display: flex
+;
+    flex-wrap: wrap;
+    border-top: solid;
+    justify-content: space-around;
+  }
+
+  #leading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+.titleButtons:hover {
+  /* color: #00A16C; */
+}
+
+#fullautohp:hover {
+  text-decoration: underline;
+}
+
+#aboutp:hover {
+  text-decoration: underline;
+}
+
+#toolsp:hover {
+  text-decoration: underline;
+}
+
+#collectionsTitle:hover {
+  text-decoration: underline;
+}
+
+.atag:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+  
+  
+}

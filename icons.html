@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>DSGN 101 Projects</title>
+   <link rel="icon" type="image/png" href="https://cdn.glitch.global/ddb6006c-caa0-43e6-abef-065a026137f5/favicon-16x16.png?v=1731301196773"/>
+</head>
+<body>
+  
+
+  
+<div id="navigation">
+  <div id="info">
+   
+    <a class="infoButtons" id="fullautohp" href="/">Icons </a>
+   
+   
+<!--      <a class="titleButtons" id="aboutp" href="https://cdn.glitch.me/ddb6006c-caa0-43e6-abef-065a026137f5/Let's%20Get%20Modular%20Lecture%20%E2%80%A2%20Fall%202024.mp4?v=1729032191018">Lecture</a> -->
+      <a class="titleButtons" id="iconspage" href="/index.html">Modular Type</a>
+        <button class="titleButtons" id="about" onclick="about()">About</button>
+    <button class="titleButtons" id="darkmode" onclick="darkMode()">Dark Mode</button>
+    
+   
+  </div> 
+</div>
+
+
+    
+
+<div class="intro" id="intro">
+    <p id="introText">
+
+For this project, you developed a set of four icons that were uniform in their theme and characteristics. This typeface represents the entire class's icon set. Now you can use this typefaces however you'd like!
+</p>
+    </div>
+
+
+<div class="allTypeThings"><div class="typeInfo"><div class="typefaceNameDIV"><span class="typefaceName">Class Icons<span> </div><div class="downloadbutton"><a class="atag" href="https://cdn.glitch.global/ddb6006c-caa0-43e6-abef-065a026137f5/Icons.otf?v=1731293060401" download>Download  </a></div><input class="slider" type="range" id="size" min="40" max="1000" value="40" oninput="updateSize(this.value, Icons)"><br><div class="sample" id="Icons" class="textarea" contenteditable="true" spellcheck="false" spellcheck="false"  style="font-family:Icons">ABCDEFGHIJKLMNOPQRSTUVWXYZyzabcdefghijklmnopqrstuvwx123456789-=,.!;</div></div>
+<style type="text/css">
+@font-face {
+  font-family: Icons;
+  src: url(https://cdn.glitch.global/ddb6006c-caa0-43e6-abef-065a026137f5/Icons.otf?v=1731293060401);
+}
+
+</style>
+
+
+
+<script type="text/javascript">
+function updateSize(newVal, id){
+var newFontSize = newVal + "px";
+$(id).css("font-size", newFontSize);
+}
+
+function updateLineHeight(newVal, id){
+  var newFontSize = newVal + "px";
+  $(id).css("line-height", newFontSize);
+
+}
+
+</script>
+
+</body>
+</html>
