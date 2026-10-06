@@ -44,10 +44,17 @@ body {
   border-radius:30px;
 }
 
+#siteTitle {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: black;
+}
+
 p {
   width: 97%;
   overflow-x: hidden;
-  margin-top: 100px;
+  margin-top: 10px;
   margin-bottom: 100px;
   text-align: center;
   padding-bottom: 50px;
